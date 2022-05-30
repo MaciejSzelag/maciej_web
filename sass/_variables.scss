@@ -1,0 +1,10 @@
+$light_pink:rgb(217, 185, 218);
+$dark_blue: rgb(48, 45, 62);
+$light_blue: rgb(101, 106, 166);
+$bg-gradien: linear-gradient(90deg, $light_pink, $light_blue, $dark_blue);
+$bg-gradien_30: linear-gradient(30deg, $light_blue 30%, $dark_blue, $light_blue);
+$purple: rgb(119, 0, 255);
+$orange: rgb(255, 145, 0);
+// $bg-gradien_30_h: linear-gradient(30deg, $light_blue 40%, $dark_blue, $light_blue);
+
+$nav_height: 60px;

@@ -1,0 +1,192 @@
+header {
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Fredoka One', cursive;
+
+    .header-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        .header-bg,
+        .header-content {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+
+        .header-bg {
+            z-index: 0;
+            background-image: url(../img/mountains_2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header-content {
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            overflow: hidden;
+
+            .title-head,
+            .header-content-bg-absolute {
+                position: absolute;
+
+            }
+
+            .title-head {
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -110%);
+                font-size: 9rem;
+                color: black;
+                -webkit-text-fill-color: rgba(255, 199, 202, 0);
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: rgba(0, 0, 0, 0.601);
+                // filter: drop-shadow(0 0 2px rgb(20, 62, 200));
+                transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+
+            .header-content-bg-absolute {
+                display: flex;
+                align-items: flex-end;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-image: url(../img/mountains_1_2.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                filter: drop-shadow(4rem -5rem 3rem rgb(217, 185, 218));
+                overflow: hidden;
+
+
+                .header-text {
+                    @include d-center-c;
+                    width: 100%;
+                    height: 50%;
+                    // background-color: green;
+
+                    p,
+                    .h-t-text {
+                        color: white;
+                        text-shadow: 0 0 3px black;
+                        // transform: translateY(-10rem);
+                        text-align: center;
+                        transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+                    }
+
+                    .h-t-text {
+                        font-size: 3rem;
+                        margin-bottom: 3rem;
+                    }
+
+                    p {
+                        max-width: 70rem;
+                        font-size: 1.6rem;
+                        padding: 0 2rem;
+                        // font-weight: 300;
+                        font-family: 'Oswald', sans-serif;
+
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 1025px) {
+    header {
+
+        .header-container {
+
+
+            .header-content {
+
+
+                .title-head {
+                    // -webkit-text-stroke-color: rgba(101, 101, 101, 0.379);
+                    transform: translate(-50%, -90%);
+                    font-size: 15rem;
+                    // text-shadow: 0 0 2.5rem rgb(255, 229, 213);
+
+                }
+
+                .header-content-bg-absolute {
+
+
+
+                    .header-text {
+
+
+
+
+                        .h-t-text {
+                            font-size: 3rem;
+                        }
+
+                        p {
+
+                            font-size: 2rem;
+                            // font-weight: 300;
+
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width: 1281px) {
+    header {
+
+        .header-container {
+
+            .header-content {
+
+
+                .title-head {
+
+                    transform: translate(-50%, -80%);
+                    font-size: 30rem;
+
+                }
+
+                .header-content-bg-absolute {
+
+
+                    .header-text {
+
+
+
+
+                        .h-t-text {
+                            font-size: 5rem;
+                        }
+
+                        p {
+
+                            font-size: 4rem;
+                            // font-weight: 300;
+
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}

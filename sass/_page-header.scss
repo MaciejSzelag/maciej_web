@@ -1,0 +1,25 @@
+.page-header {
+    max-height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    .page-header-container {
+        @include d-center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+
+        h1 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 4rem;
+
+        }
+
+
+    }
+
+    // .bg-ab-me {
+    //     background-image: url(../page/img/person.jpg);
+    // }
+}
