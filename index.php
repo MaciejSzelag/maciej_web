@@ -83,14 +83,14 @@
 
                                 I work collaborate with individuals, small and medium businesses, startups.
                             </p>
-                            <div class="btn"><a href="page/about-me/">Read more
+                            <div class="btn"><a href="page/about-me/">More about me
                                 <svg xmlns="http://www.w3.org/2000/svg" ><path d="M23.375 29.958 21.375 27.958 28.042 21.333H6.667V18.542H28.042L21.375 11.875L23.333 9.917L33.375 19.958Z"/></svg>
                                 </a>
                             </div>
                         </div>
                         <div class="s-content-txt">
                             <div class="img-box">
-                                <img class="clear-op mask1 shadow" src="img/Maciej_Szelag_c.png" alt="">
+                                <img class="clear-op mask1 shadow" src="img/Maciej_Szelag_c.png" alt="Maciej Szelag">
                             </div>
                         </div>
 
@@ -177,7 +177,7 @@
                     <div class="s-2">
                         <div class="s-content-txt">
                             <div class="img-box">
-                                <img src="img/smartphone_640.jpg" alt="">
+                                <img src="img/smartphone_640.jpg" alt="Smartphone">
                             </div>
                         </div>
 

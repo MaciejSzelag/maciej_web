@@ -1,10 +1,10 @@
-$light_pink:rgb(217, 185, 218);
-$dark_blue: rgb(48, 45, 62);
-$light_blue: rgb(101, 106, 166);
+$light_pink:#d9b9da;
+$dark_blue: #302d3e;
+$light_blue: #656aa6;
 $bg-gradien: linear-gradient(90deg, $light_pink, $light_blue, $dark_blue);
 $bg-gradien_30: linear-gradient(30deg, $light_blue 30%, $dark_blue, $light_blue);
-$purple: rgb(119, 0, 255);
-$orange: rgb(255, 145, 0);
+$purple: #7700ff;
+$orange: #ff9100;
 // $bg-gradien_30_h: linear-gradient(30deg, $light_blue 40%, $dark_blue, $light_blue);
 
 $nav_height: 60px;

@@ -4,8 +4,8 @@
                     <div class="foot-content">
                         <h1>Contact</h1>
                             <ul>
-                                <li><a href=""><i class="fas fa-at"></i> maciej.szelag@msweb.co.uk</a></li>
-                                <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+                                <li><a href="mailto:maciej.szelag@msweb.co.uk"><i class="fas fa-at"></i> maciej.szelag@msweb.co.uk</a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100000727683099"><i class="fab fa-facebook"></i>Facebook</a></li>
                             </ul>
                     </div>
                     <div class="foot-content">

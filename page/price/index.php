@@ -1,5 +1,5 @@
 <?php $tab_title = "Price"; include "../includes/head.php"; ?>
-<?php $bg_img = "start.jpg"; $page_title = "How much it cost?"; include "../includes/header.php"; ?>
+<?php $bg_img = "start.jpg"; $page_title = "How much does cost?"; include "../includes/header.php"; ?>
 <main>
     <article>
         <section class="section-page">
